@@ -6,3 +6,52 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ 
+.navbar-light .navbar-toggler {
+	border: 0;
+	right: 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:cyan;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #292b2c; 
+
+	/*  Estos son para la prueba? */
+}
+.navbar-collapse {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    width: 100%;
+}
+/* Headings */
+.heading-underline {
+	position: relative;
+	margin-bottom: 2em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #dccdc6;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.heading-underline:before {
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 25%;
+	height: 1px;
+	max-width: 100px;
+	background: #ce5f31;
+}
+button {
+	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	color:cyan;;
+	background-color:#292b2c;
+}
