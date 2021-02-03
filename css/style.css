@@ -21,6 +21,7 @@ body {
 	color:black;
 	font-style: normal;
 	background-color:whitesmoke;
+	
 }
 
 button {
@@ -41,6 +42,12 @@ button {
 	background-color: #292b2c; 
 
 	/*  Challenge: can you make the navigation links orange on hover? */
+}
+.heading-underline{
+	display: flex;
+	justify-content: space-between;
+	
+
 }
 
 /* Buttons */
@@ -140,13 +147,9 @@ button {
 	padding-bottom: 2em;
 	background-color: #292b2c;
 	color:cyan;
+	text-align: center;
 }
 
 /* Media queries */
 
-@media screen and (min-width: 992px) {
 
-	.navbar-brand > img {
-	   max-height: 80px;
-	}
-}
